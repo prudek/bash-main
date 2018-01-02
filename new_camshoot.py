@@ -23,7 +23,7 @@ def takePicture():
     #if not os.path.exists('/mnt/var/www/webcam/' + dirMonth + '/' + dirDay):
     #    print os.makedirs('/mnt/var/www/webcam/' + dirMonth + '/' + dirDay)
 
-    os.system('wget -O /var/log/www/last.jpg ' http://admin:slonykapturek137@192.168.0.9/Streaming/channels/1/picture')	
+    os.system('wget -O /var/log/www/last.jpg http://admin:slonykapturek137@192.168.0.9/Streaming/channels/1/picture')	
    
  
 
