@@ -30,6 +30,7 @@ def handle(msg):
     elif command == '/time':
         bot.sendMessage(chat_id, str(datetime.datetime.now()))
     elif command == '/photo':
+        print 'fotka'
         bot.sendPhoto(chat_id, open('/var/log/www/cam1_new.jpg','rb'))
 
 bot = telepot.Bot('1330785986:AAHN7NWd1fmOXkV-kSQfNQXaqYqfENXjbW8')
